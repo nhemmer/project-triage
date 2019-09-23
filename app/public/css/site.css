@@ -1,11 +1,11 @@
 #mainContent {
-  border: 1px solid red;
-  background-color: rgb(255,230,230);
+  /* border: 1px red solid; */
+  /* background-color: rgb(255,230,230); */
 }
 
 .queueView {
-  border: 1px dotted blue;
-  background-color: rgb(210,210,230);
+  border: 2px black solid;
+  background-color: rgb(230,230,230);
 }
 
 .patientWaiting {
@@ -18,12 +18,18 @@
 .patientName {
   font-weight: bold;
 }
+
 .highPriority {
-  border-left: : 4px solid red;
+  border-left-color: red;
+  border-left-width: 6px;
 }
+
 .mediumPriority {
-  border-left: : 4px solid orange;
+  border-left-color: orange;
+  border-left-width: 6px;
 }
+
 .lowPriority {
-  border-left: : 4px solid blue;
+  border-left-color: blue;
+  border-left-width: 6px;
 }
